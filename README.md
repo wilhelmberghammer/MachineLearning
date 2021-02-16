@@ -6,3 +6,4 @@ I'll try to keep it orgamised but I don't want it to be too nested because that 
 
 ## Table of Content
 * [Transfer Learning for Conputer vision](https://github.com/wilhelmberghammer/MachineLearning/tree/main/transfer_learning_cv)
+* [DCGAN paper implementation in PyTorch](https://github.com/wilhelmberghammer/MachineLearning/tree/main/DCGAN_pytorch)

@@ -33,7 +33,7 @@ def get_data(data_dir, batch_size, num_workers=2):
 
 	class_names = img_datasets['train'].classes
 
-	return data_loaders, class_names
+	return data_loaders
 
 
 def train(model, EPOCHS, criterion, optimizer, data_loaders):
@@ -80,35 +80,27 @@ def train(model, EPOCHS, criterion, optimizer, data_loaders):
 	return model
 
 
-def finetune_convnet(pretrained_model, EPOCHS, criterion, optimizer, data_loaders):
-	num_features = pretrained_model.fc.in_features
-	pretrained_model.fc = nn.Linear(num_features, 2)
-
-	pretrained_model.to(device)
-
-	model = train(pretrained_model, EPOCHS, criterion, optimizer, data_loaders)
-	return model
-
-
-
 
 if __name__ == '__main__':
 	device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 	print(device, '\n')
 
 	# hyperparameters
-	batch_size = 8
-	EPOCHS = 6
+	batch_size = 8 
+	EPOCHS = 10
 
-	data_loaders, class_names = get_data(data_dir='./data/', batch_size=batch_size)
+	data_loaders = get_data(data_dir='./data/', batch_size=batch_size)
 
-	model = models.resnet18(pretrained=True)
+	pretrained_model = models.resnet18(pretrained=True)
+	for param in pretrained_model.parameters():
+		param.requires_grad = False
+
+	pretrained_model.fc = nn.Linear(pretrained_model.fc.in_features, 2)
+	pretrained_model = pretrained_model.to(device)
 
 	criterion = nn.CrossEntropyLoss()
-	optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)
 
-	finetuned_model = finetune_convnet(pretrained_model=model,
-                                    EPOCHS=EPOCHS,
-                                    criterion=criterion,
-                                    optimizer=optimizer, 
-									data_loaders=data_loaders)
+	optimizer = optim.Adam(pretrained_model.fc.parameters(), lr=0.001)
+
+	model = train(pretrained_model, EPOCHS, criterion, optimizer, data_loaders)
+
