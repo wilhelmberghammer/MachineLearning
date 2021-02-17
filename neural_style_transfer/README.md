@@ -11,14 +11,10 @@ This might be the reason for some differences. I didn't notice any differences w
 <br>
 
 ## Result Example
-**Content:**
+**Example 1:**
 
-![content alisha](https://github.com/wilhelmberghammer/MachineLearning/blob/main/neural_style_transfer/content_images/alisha.jpg)
+![content alisha](https://github.com/wilhelmberghammer/MachineLearning/blob/main/neural_style_transfer/readme_results/result_1.png)
 
-**Style image:**
+**Example 2:**
 
-![style dog](https://github.com/wilhelmberghammer/MachineLearning/blob/main/neural_style_transfer/style_images/dog_abstract_style.jpg)
-
-**Result:**
-
-![Result](https://github.com/wilhelmberghammer/MachineLearning/blob/main/neural_style_transfer/generated_images/alisha_2.png)
+![style dog](https://github.com/wilhelmberghammer/MachineLearning/blob/main/neural_style_transfer/readme_results/result_2.png)
