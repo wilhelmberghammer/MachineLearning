@@ -21,4 +21,4 @@ This might be the reason for some differences. I didn't notice any differences w
 
 **Result:**
 
-![Result](https://github.com/wilhelmberghammer/MachineLearning/blob/main/neural_style_transfer/generated_images/alisha_2.jpg)
+![Result](https://github.com/wilhelmberghammer/MachineLearning/blob/main/neural_style_transfer/generated_images/alisha_2.png)
