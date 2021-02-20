@@ -12,3 +12,6 @@ I'll try to keep it orgamised but I don't want it to be too nested because that 
 * [Neural Style Transfer - implementation in PyTorch](https://github.com/wilhelmberghammer/MachineLearning/tree/main/neural_style_transfer)
 
 ### Tools
+
+### Working on
+* Object localization and object detection
