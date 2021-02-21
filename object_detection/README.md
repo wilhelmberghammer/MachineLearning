@@ -4,6 +4,8 @@ After studying and playing around with CNNs I'll continue with computer vision a
 
 ### Roadmap
 * 1st step - Object Localization
+    * learn core concepts of object localization
+    * just to experiment - the code is a mess
     * single object
     * Dataset: [The Oxford-IIIT Pet Dataset](https://www.kaggle.com/devdgohil/the-oxfordiiit-pet-dataset)
 * 2nd step - Object Detection
