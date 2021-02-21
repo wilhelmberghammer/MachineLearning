@@ -16,3 +16,7 @@ fyi if I use a jupyter notebook I'm experimenting with something and the code wi
 
 ### Working on
 * [Object detection](https://github.com/wilhelmberghammer/MachineLearning/tree/main/object_detection)
+
+
+### Coming up
+* [Weights & Biases](https://wandb.ai/site)
