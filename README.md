@@ -13,7 +13,6 @@ fyi if I use a jupyter notebook I'm experimenting with something and the code wi
 * [DCGAN paper implementation in PyTorch](https://github.com/wilhelmberghammer/MachineLearning/tree/main/DCGAN_pytorch)
 * [Neural Style Transfer - implementation in PyTorch](https://github.com/wilhelmberghammer/MachineLearning/tree/main/neural_style_transfer)
 
-### Tools
 
 ### Working on
-* Object localization and object detection
+* [Object detection](https://github.com/wilhelmberghammer/MachineLearning/tree/main/object_detection)
