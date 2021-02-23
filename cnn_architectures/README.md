@@ -6,7 +6,7 @@ Simple PyTorch implementation of the paper [VERY DEEP CONVOLUTIONAL NETWORKS FOR
 
 I made VGG16 (D) because it's the most popular and the architecute can be modified.
 
-![architechtures](https://github.com/wilhelmberghammer/VGG_pytorch/blob/main/cnn_architectures/resources/vgg_architectures.png?raw=true)
+![architechtures](https://github.com/wilhelmberghammer/MachineLearning/blob/main/cnn_architectures/resources/vgg_architectures.png?raw=true)
 
 *👆 figure from the paper*
 
