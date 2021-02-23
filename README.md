@@ -7,17 +7,17 @@ I'll try to keep it orgamised but I don't want it to be too nested because that 
 **If I use a jupyter notebook I'm experimenting with something and the code will probably be a mess ... so don't take those too serious.**
 
 ## Table of Content
-* [Transfer Learning for Computer vision](https://github.com/wilhelmberghammer/MachineLearning/tree/main/transfer_learning_cv)
+* [Transfer Learning for Computer vision](https://github.com/wilhelmberghammer/MachineLearning/tree/main/Transfer_Learning_CV)
 
 ### Paper implementations
 * [DCGAN paper implementation in PyTorch](https://github.com/wilhelmberghammer/MachineLearning/tree/main/DCGAN_pytorch)
-* [Neural Style Transfer - implementation in PyTorch](https://github.com/wilhelmberghammer/MachineLearning/tree/main/neural_style_transfer)
+* [Neural Style Transfer - implementation in PyTorch](https://github.com/wilhelmberghammer/MachineLearning/tree/main/Neural_Style_Transfer)
 
 ### Model/Architecture implementations
-* [VGG16](https://github.com/wilhelmberghammer/MachineLearning/tree/main/cnn_architectures/vgg16.py)
+* [VGG16](https://github.com/wilhelmberghammer/MachineLearning/tree/main/CNN_Architectures/vgg16.py)
 
 ### Working on
-* [Object detection](https://github.com/wilhelmberghammer/MachineLearning/tree/main/object_detection)
+* [Object detection](https://github.com/wilhelmberghammer/MachineLearning/tree/main/Object_Detection)
 
 
 ### Coming up
