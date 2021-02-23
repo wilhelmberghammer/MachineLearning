@@ -13,8 +13,8 @@ This might be the reason for some differences. I didn't notice any differences w
 ## Result Example
 **Example 1:**
 
-![content alisha](https://github.com/wilhelmberghammer/MachineLearning/blob/main/Neural_Style_Transfer/readme_results/result_1.png)
+![content alisha](https://github.com/wilhelmberghammer/MachineLearning/blob/main/neural_style_transfer/readme_results/result_1.png)
 
 **Example 2:**
 
-![style dog](https://github.com/wilhelmberghammer/MachineLearning/blob/main/Neural_Style_Transfer/readme_results/result_2.png)
+![style dog](https://github.com/wilhelmberghammer/MachineLearning/blob/main/neural_style_transfer/readme_results/result_2.png)
