@@ -130,9 +130,9 @@ dmypy.json
 
 
 # data
-transfer_learning_cv/data
+transfer_learning/data
 DCGAN_pytorch/src/data
 
 # DS_Store
 .DS_Store
-transfer_learning_cv/.DS_Store
+transfer_learning/.DS_Store

@@ -10,6 +10,19 @@ This might be the reason for some differences. I didn't notice any differences w
 
 <br>
 
+### Setup
+You will need a virtualenv with `python>=3.8`.
+
+```bash
+pip install poetry
+poetry install
+```
+
+### To run style transfer
+```bash
+poetry run python neural_style_transfer/nst.py
+```
+
 ## Result Example
 **Example 1:**
 
