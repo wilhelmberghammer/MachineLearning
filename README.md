@@ -22,3 +22,17 @@ I'll try to keep it orgamised but I don't want it to be too nested because that 
 
 ### Coming up
 * [Weights & Biases](https://wandb.ai/site)
+
+
+### Setup
+You will need a virtualenv with `python>=3.8`.
+
+```bash
+pip install poetry
+poetry install
+```
+
+### To run style transfer
+```bash
+poetry run python neural_style_transfer/nst.py
+```
