@@ -18,8 +18,18 @@ I'll try to keep it orgamised but I don't want it to be too nested because that 
 
 ### Working on
 * [Object detection](https://github.com/wilhelmberghammer/MachineLearning/tree/main/object_detection)
+	* Utils
+		* Intersection over Union
+		* Non Max Suppression
+		* Mean Average Precision
+	* YOLO
+
+* Reinforcement Learning
+	* Q-Learning
+	* Deep Q-Learning
+	* policy gradient
 
 
-### Coming up
+### Coming up (things I want to learn in the near future)
 * [Weights & Biases](https://wandb.ai/site)
 
