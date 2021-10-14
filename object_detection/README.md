@@ -9,7 +9,7 @@ After studying and playing around with CNNs I'll continue with computer vision a
     * test on [The Oxford-IIIT Pet Dataset](https://www.kaggle.com/devdgohil/the-oxfordiiit-pet-dataset)
 
 
-* **2nd step - Object Detection**
+* **2nd step - Object Detection** *On Hold*
     * **this is the main part**
     * study [OverFeat: Integrated Recognition, Localization and Detection using Conv Nets Paper](https://arxiv.org/abs/1312.6229)
     * [YOLO paper](https://arxiv.org/abs/1506.02640) implementation

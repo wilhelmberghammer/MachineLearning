@@ -1,4 +1,6 @@
-# Machine Learning
+# **Machine Learning**
+### *Currently on hold due to other, more practical projects*
+---
 
 This is where I learn machine learning🤷‍  This means that this repo covers no specific topic of machine learning or a project - I work in here when I want to learn/try something
 
@@ -16,18 +18,8 @@ I'll try to keep it orgamised but I don't want it to be too nested because that 
 ### Model/Architecture implementations
 * [VGG16](https://github.com/wilhelmberghammer/MachineLearning/tree/main/cnn_architectures/vgg16.py)
 
-### Working on
+### Working on / On Hold
 * [Object detection](https://github.com/wilhelmberghammer/MachineLearning/tree/main/object_detection)
-	* Utils
-		* Intersection over Union
-		* Non Max Suppression
-		* Mean Average Precision
-	* YOLO
-
-* Reinforcement Learning
-	* Q-Learning
-	* Deep Q-Learning
-	* policy gradient
 
 
 ### Coming up (things I want to learn in the near future)
